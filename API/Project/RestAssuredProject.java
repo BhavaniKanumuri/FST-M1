@@ -22,14 +22,14 @@ public class RestAssuredProject {
 		requestSpec=new RequestSpecBuilder()
 				.setContentType(ContentType.JSON)
 				.setBaseUri("https://api.github.com").log(LogDetail.ALL)
-				.addHeader("Authorization","token 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")
+				.addHeader("Authorization","token")
 				.build();
 		
 	}
 	@Test(priority=0)
 	public void postReq() {
 
-	String reqBody = "{ \"title\": \"TestAPIKey\", \"key\": \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuW37bblMRSXALec80vD8+dak8twzPsj/D25u2dANYBeczGIDtI0yroJIVJQ+rJBl5mzmzOFByh99M5V/EMx+tNJ6EnUGdYxikR69kNtd26Ouj5ruKuGdNq55IvoiMI/ULLhCACMcwRGEgnEtpZYC3acsCUtrpxMo0TxfYHdtcJIHzHs2wqhMN0fPhRGgBC+/wiqSPVDTQq6b7KhRKM292vEUFuSTjIEq6F3pXvlKwfB0mQZ5KuxL0/clbqDq787OMO7KESjX4U6c0tmwqRF9t4bHZE3iIWGMVtaB/vXrZOQvl6LYp0WyrzGOHGFGKYkObHZN/xpCFcQYv8M0ic3rWS8H8kEITYXj6NKHlE2AORu8GdJMArJ83dq6yTgcYRbYg7Tpl0rgZJRzdn2wOkyYZtIlS4OO2B6aJd4adgA2Aly3Eo6JyFsEnwvGn+c/XFtWGL69Qee48zQfAwdk6rO02CLaNnuDuAnLUBJE6mynLT2tldNSOicztX0/rzYluJXc=\"}";
+	String reqBody = "{ \"title\": \"TestAPIKey\", \"key\": \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuW37bblMRSXALec80vD8+dak8twzPsj/D25u2dANYBkzzGIDtI0yroJIVJQ+rJBl5mzmzOFByh99M5V/EMx+tNJ6EnUGdYxikR69kNtd26Ouj5ruKuGdNq55IvoiMI/ULLhCACMcwRGEgnEtpZYC3acsCUtrpxMo0TxfYHdtcJIHzHs2wqhMN0fPhRGgBC+/wiqSPVDTQq6b7KhRKM292vEUFuSTjIEq6F3pXvlKwfB0mQZ5KuxL0/clbqDq787OMO7KESjX4U6c0tmwqRF9t4bHZE3iIWGMVtaB/vXrZOQvl6LYp0WyrzGOHGFGKYkObHZN/xpCFcQYv8M0ic3rWS8H8kEITYXj6NKHlE2AORu8GdJMArJ83dq6yTgcYRbYg7Tpl0rgZJRzdn2wOkyYZtIlS4OO2B6aJd4adgA2Aly3Eo6JyFsEnwvGn+c/XFtWGL69Qee48zQfAwdk6rO02CLaNnuDuAnLUBJE6mynLT2tldNSOicztX0/rzYluJXc=\"}";
 		Response response= given().spec(requestSpec)
 				.body(reqBody)
 				.when().post("/user/keys");
