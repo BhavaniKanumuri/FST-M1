@@ -145,7 +145,7 @@
           <con:endpoint>https://api.github.com</con:endpoint>
           <con:request>{
 	"title":"TestKey",
-	"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZDtLFvMlRpvK8hhgkbyrIZK8M2zJWrAYmVxW4gDuomK557/vDl9oq203SW53gvhlZSitoIjXZz4ueCEyjOeod1ndvZ5zJJuAzUc50Cdc4iSbgvjGsFHOmKh8F6KyMMMjvXGxLJ82AhzVTuGgTex9rZNSlZmwk2OAjPQa7Qwet06rkEov+SWJZmeCyDc9s+PRbwYd/fMHvKZxaN2pEW5HBARLC0evnt+of34L11V93XFXqYkKQzEmBdrKL5lt21ASzEzLh9t8RrltH+1n5R4j4om7EdUNZLVPpmgu3duezqSj4GEFwDU4SNsJURKpDVJfuHMTY8uUYnirp3C7domMh"
+	"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZoptLFvMlRpvK8hhgkbyrIZK8M2zJWrAYmVxW4gDuomK557/vDl9oq203SW53gvhlZSitoIjXZz4ueCEyjOeod1ndvZ5zJJuAzUc50Cdc4iSbgvjGsFHOmKh8F6KyMMMjvXGxLJ82AhzVTuGgTex9rZNSlZmwk2OAjPQa7Qwet06rkEov+SWJZmeCyDc9s+PRbwYd/fMHvKZxaN2pEW5HBARLC0evnt+of34L11V93XFXqYkKQzEmBdrKL5lt21ASzEzLh9t8RrltH+1n5R4j4om7EdUNZLVPpmgu3duezqSj4GEFwDU4SNsJURKpDVJfuHMTY8uUYnirp3C7domMh"
 }</con:request>
           <con:originalUri>https://api.github.com/user/keys</con:originalUri>
           <con:credentials>
@@ -200,7 +200,7 @@
             <con:endpoint>https://api.github.com</con:endpoint>
             <con:request>{
 	"title":"TestKey",
-	"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZDtLFvMlRpvK8hhgkbyrIZK8M2zJWrAYmVxW4gDuomK557/vDl9oq203SW53gvhlZSitoIjXZz4ueCEyjOeod1ndvZ5zJJuAzUc50Cdc4iSbgvjGsFHOmKh8F6KyMMMjvXGxLJ82AhzVTuGgTex9rZNSlZmwk2OAjPQa7Qwet06rkEov+SWJZmeCyDc9s+PRbwYd/fMHvKZxaN2pEW5HBARLC0evnt+of34L11V93XFXqYkKQzEmBdrKL5lt21ASzEzLh9t8RrltH+1n5R4j4om7EdUNZLVPpmgu3duezqSj4GEFwDU4SNsJURKpDVJfuHMTY8uUYnirp3C7domMh",
+	"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZDtLFvMlRpvK8hhgkbyrIZK8M2zJWopAYmVxW4gDuomK557/vDl9oq203SW53gvhlZSitoIjXZz4ueCEyjOeod1ndvZ5zJJuAzUc50Cdc4iSbgvjGsFHOmKh8F6KyMMMjvXGxLJ82AhzVTuGgTex9rZNSlZmwk2OAjPQa7Qwet06rkEov+SWJZmeCyDc9s+PRbwYd/fMHvKZxaN2pEW5HBARLC0evnt+of34L11V93XFXqYkKQzEmBdrKL5lt21ASzEzLh9t8RrltH+1n5R4j4om7EdUNZLVPpmgu3duezqSj4GEFwDU4SNsJURKpDVJfuHMTY8uUYnirp3C7domMh",
 	"read_only": true
 }</con:request>
             <con:originalUri>https://api.github.com/user/keys</con:originalUri>
@@ -278,7 +278,7 @@
     <con:oAuth2Profile>
       <con:name>AdminAuth</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken>Token</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
       <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
@@ -329,7 +329,7 @@
     <con:oAuth20AuthEntry>
       <con:name>AdminAuth</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken>Token</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
       <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
